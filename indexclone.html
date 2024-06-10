@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AME NOTES</title>
+    <link rel="icon" type="image/png" href="./contents/2.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <script src="https://kit.fontawesome.com/85a51766c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-------- Navbar --------->
+    <header>
+        <nav id="home-top">
+            <div class="logo">
+                <img src="./contents/2.png" alt="logo">
+            </div>
+            <div class="menu">
+                <a href="#home-top" onclick="removeBlack()">Home</a>
+                <a href="#" onclick="removeBlack()">Modules</a>
+                <a href="#Footer" onclick="removeBlack()">Contact</a>
+            </div>
+            <div class="sidebar-btn" onclick="sideSwipe()">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </div>
+
+        </nav>
+        <!-- side menu / side navbar -->
+
+        <div class="side-menu">
+            <img src="./contents/2.png" alt="logo" width='50px' id="side-menu-img">
+            <a href="#home-top" onclick="removeBlack()">Home</a>
+            <a href="#" onclick="removeBlack()">Modules</a>
+            <a href="#Footer" onclick="removeBlack()">Contact</a>
+        </div>
+
+        <!-- Main Page Content -->
+        <div class="head-box">
+            <div class="headContainer">
+                <h3>Welcome To</h3>
+                <h1>AME STUDY MATERIALS<br>
+                    <!-- <span class="change_content"> </span> -->
+                </h1>
+                <p>”Shape Tomorrow, Study Today!”</p>
+            </div>
+        </div>
+
+        <div class="black-effect" onclick="removeBlack()"></div>
+    </header>
+
+
+<!-- bootstrap navbar extra --------------------------->
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./contents/2.png" alt="Logo" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> -->
+
+
+
+    <main class="container">
+
+        <!-- notes section 1-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 3 (B1 & B2)</h2>
+                    <a href="#">more details</a> <br> <br>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹155.00</span>
+                        <a href="https://rzp.io/l/Kqds80P"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container1" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container1">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+
+
+        <!-- notes section 2-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center ">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 4 (B1)</h2>
+                    <p>This is a demo note. It includes a preview of the content you will receive upon purchase.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹120.00</span>
+                        <a href="https://rzp.io/l/fzGxik6qV"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container2" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container2">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+
+
+        <!-- notes section 3-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 5 (B1)</h2>
+                    <p>This is a demo note. It includes a preview of the content you will receive upon purchase.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹160.00</span>
+                        <a href="https://rzp.io/l/hMLAr97Hs"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container3" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container3">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+
+
+        <!-- notes section 4-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 6 (B1)</h2>
+                    <p>This is a demo note. It includes a preview of the content you will receive upon purchase.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹180.00</span>
+                        <a href="https://rzp.io/l/gnawdzfDE"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container4" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container4">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+
+
+        <!-- notes section 5-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 7 (B1)</h2>
+                    <p>This is a demo note. It includes a preview of the content you will receive upon purchase.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹180.00</span>
+                        <a href="https://rzp.io/l/3zVXM2G"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container5" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container5">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+
+
+        <!-- notes section 6-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 8 (B1 & B2)</h2>
+                    <p>This is a demo note. It includes a preview of the content you will receive upon purchase.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹120.00</span>
+                        <a href="https://rzp.io/l/23OuN1QloA"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container6" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container6">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+
+
+        <!-- notes section 7-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 9 (B1 & B2)</h2>
+                    <p>This is a demo note. It includes a preview of the content you will receive upon purchase.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹120.00</span>
+                        <a href="https://rzp.io/l/BcgLJVx"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container7" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container7">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+        <!-- notes section 8-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 10 (B1 & B2)</h2>
+                    <p>This is a demo note. It includes a preview of the content you will receive upon purchase.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹140.00</span>
+                        <a href="https://rzp.io/l/8zXDzfmE"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container8" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container8">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+
+        <!-- notes section 9-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 15 (B1)</h2>
+                    <p>This is a demo note. It includes a preview of the content you will receive upon purchase.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹190.00</span>
+                        <a href="https://rzp.io/l/0aogIX3IMX"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container9" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container9">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+        <!-- notes section 10-->
+        <section class="note">
+            <div class="outer-box d-flex align-items-center">
+                <!-- image -->
+                <div class="titleImgBox">
+                    <img src="./contents/demoImg.jpg" alt="img" class="module-title-img">
+                </div>
+                <div class="mr-3">
+                    <h2>Module 17 (B1)</h2>
+                    <p>This is a demo note. It includes a preview of the content you will receive upon purchase.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="font-weight-bold mr-2">₹135.00</span>
+                        <a href="https://rzp.io/l/uow7msU"><button class="btn btn-primary" onclick="">Buy Now</button></a>
+                        <button class="btn btn-primary ml-3 demoBtn demoBtn1" data-toggle="collapse"
+                            data-target="#demo-video-container10" aria-expanded="false"
+                            aria-controls="demo-video-container">Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container collapse align" id="demo-video-container10">
+                <video class="demo-video" controls class="embed-responsive-item embed-responsive-16by9"
+                    style="width: 100%; max-width: 400px; height: auto;" src="./SampleVideo.mp4"
+                    type="video/mp4"></video>
+                <source>
+            </div>
+        </section>
+
+
+
+
+
+
+
+    </main>
+    <footer id="Footer">
+        <p>&copy; 2024 AME Notes by Shrihari Mange</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

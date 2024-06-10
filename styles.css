@@ -1,0 +1,106 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* Font-family: “Josefin Sans”, sans-serif; */
+    user-select: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+.note h2{
+    font-size: 1.7rem;
+}
+
+
+
+
+
+/* old--------------------------------old------------------------------ */
+
+/* .Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3vw;
+    background-color: black;
+    color: white;
+
+}
+
+#navImg{
+    height: 40px;
+}
+
+#NavTitle{
+    font-weight: bold;
+    font-size: 1.1rem;
+} */
+
+.module-title-img {
+    height: 140px;
+    margin: 0 40px 0 0;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
+/* Media queries small display-------------------------------------------------- */
+@media (width<500px) {
+
+    body{
+        background-color: rgb(126, 250, 225);
+    }
+
+    #navImg{
+        height: 35px;
+    }
+
+
+    .note {
+        margin:20px 0 0 0 ;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 4px rgb(36, 189, 250);
+        /* background-color: #fcf9f3; */
+        background-color: #000000;
+        color: white;
+    }
+
+    .outer-box {
+        flex-wrap: wrap;
+    }
+
+    .titleImgBox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .module-title-img {
+        margin: 0;
+    }
+
+    .video-container{
+        width: 100%;
+    }
+
+}
+
+
+
+/* big display --------------------------------------------------------------*/
+@media (width>990px) {
+    .note{
+        margin: 20px 0;
+    }
+}
